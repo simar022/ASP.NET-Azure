@@ -31,5 +31,9 @@ jobs:
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
         with:
+<<<<<<< HEAD
           app-name: 'your-azure-webapp-name'
+=======
+          app-name: 'asp-net022'
+>>>>>>> 55697df (Added workflow file)
           images: '${{ secrets.DOCKER_USERNAME }}/aspnet-app:latest'
